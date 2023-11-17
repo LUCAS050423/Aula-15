@@ -12,6 +12,7 @@ public class Tabuada {
 			a[i] = ler.nextInt();
 		}
 		for(i=0;i<TAM;i++) {
+			System.out.println(" ");
 			System.out.println("A tabuada "+(i+1));
 			for(n=0;n<=10;n++) {
 				m=a[i] * n;
